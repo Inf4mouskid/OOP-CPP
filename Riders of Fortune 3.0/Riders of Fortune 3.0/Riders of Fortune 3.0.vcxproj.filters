@@ -13,12 +13,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Source Files\Private">
-      <UniqueIdentifier>{8b59d675-da59-4169-a71e-cadc6bf318e7}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Public">
-      <UniqueIdentifier>{b54b8094-6994-443b-a5d8-cbba89a15746}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -47,23 +41,23 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="EnemyCharacter.cpp">
-      <Filter>Source Files\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="DemonKnight.cpp">
-      <Filter>Source Files\Private</Filter>
+    <ClCompile Include="RReaper.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="BruteTroll.cpp">
-      <Filter>Source Files\Private</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="RReaper.cpp">
-      <Filter>Source Files\Private</Filter>
+    <ClCompile Include="DemonKnight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyCharacter.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Riders of Fortune 3.0.cpp">
-      <Filter>Source Files\Public</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="PlayerCharacter.cpp">
-      <Filter>Source Files\Public</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
